@@ -109,7 +109,7 @@ const CourseLayout = async ({ children, params }: any) => {
                   </h1>
                 </div>
               </div>
-              <div className=" flex-col h-[50vh] md:h-screen lg:h-[90vh] overflow-y-auto ">
+              <div className=" flex-col h-[50vh] md:h-screen lg:h-[140vh] overflow-y-auto ">
                 <div className="flex-col space-y-4">
                   <CoursContainer
                     cour={matiereInfo.courses}
