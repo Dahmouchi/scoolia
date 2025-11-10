@@ -13,10 +13,7 @@ import {
 import SimplePDFViewer from "./cours-pdf";
 
 const CourseContent = ({ course, userId }: any) => {
-  const handleScoreUpdate = (score: any) => {
-    console.log("Nouveau score:", score);
-    // Ici vous pouvez envoyer le score à votre API ou mettre à jour votre état global
-  };
+
   if (!course) {
     return (
       <div className="bg-white rounded-lg shadow-sm border p-6">
