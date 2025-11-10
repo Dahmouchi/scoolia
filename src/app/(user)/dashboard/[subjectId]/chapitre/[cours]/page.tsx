@@ -4,10 +4,10 @@ export const revalidate = 0;
 import { getCoursByHandle } from "@/actions/cours";
 import { Play } from "lucide-react";
 import VimeoTest from "@/app/(user)/_components/vimeoPlayer";
-import CourseContent from "@/app/(user)/_components/CourseContent";
 import { getStudentById } from "@/actions/client";
 import ButtonComplete from "@/app/(user)/_components/buttonComplete";
 import { redirect } from "next/navigation";
+import CourseContent from "@/app/(user)/_components/CourseContentWithQuizs";
 
 const CoursePage = async ({ params }: any) => {
   const course = await getCoursByHandle(params.cours);
