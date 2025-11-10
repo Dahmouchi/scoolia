@@ -312,7 +312,7 @@ const SubjectCard = ({
     <motion.div
       onClick={() =>
         router.push(
-          `/dashboard/matiere/${subject.handler}`
+          `/dashboard/${subject.handler}/chapitre/${subject.courses[0]?.idy}`
         )
       }
       className="bg-white h-full rounded-2xl shadow-lg border border-gray-100 overflow-hidden cursor-pointer group"
